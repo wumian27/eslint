@@ -2,7 +2,7 @@
 
 import App from './App'
 
-const a = 1  
+const a = 1
 let b: any
 
 function h(a: any) {
