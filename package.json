@@ -12,7 +12,7 @@
       "pre-commit": "npm run lint"
     }
   },
-  "lint-staged" : {
+  "lint-staged": {
     "*.{.ts, .tsx}": [
       "eslint",
       "git add"
@@ -33,6 +33,7 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "husky": "^8.0.1",
     "prettier": "^2.7.1",
     "typescript": "^4.7.4"
   },
